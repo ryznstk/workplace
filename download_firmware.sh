@@ -19,8 +19,8 @@ fi
 
 # Step 2: Download MIUI Firmware
 
-FIRMWARE_URL="https://bn.d.miui.com/OS3.0.6.0.WNPMIXM/peridot_global_images_OS3.0.6.0.WNPMIXM_20260401.0000.00_16.0_global_e1f33cf4ad.tgz"
-FIRMWARE_FILE="peridot_global_images_OS3.0.6.0.WNPMIXM_20260401.0000.00_16.0_global_e1f33cf4ad.tgz"
+FIRMWARE_URL="https://bn.d.miui.com/OS3.0.301.0.WNPMIXM/peridot_global_images_OS3.0.301.0.WNPMIXM_20260430.0000.00_16.0_global_2f177c3d4e.tgz"
+FIRMWARE_FILE="peridot_global_images_OS3.0.301.0.WNPMIXM_20260430.0000.00_16.0_global_2f177c3d4e.tgz"
 
 echo "Downloading MIUI firmware..."
 if [ -f "$FIRMWARE_FILE" ]; then
