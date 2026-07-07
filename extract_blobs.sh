@@ -14,7 +14,7 @@ if [ -d "lineage/device/xiaomi/peridot" ]; then
     git pull
     cd ../../../..
 else
-    git clone https://github.com/guidixx/device_xiaomi_peridot.git -b 16 lineage/device/xiaomi/peridot
+    git clone https://github.com/ryznstk.git -b evo lineage/device/xiaomi/peridot
 fi
 
 echo "Running setup-makefiles.sh in the peridot directory..."
